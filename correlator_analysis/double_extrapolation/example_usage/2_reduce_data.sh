@@ -25,7 +25,7 @@ if [ "$qcdtype" == quenched_1.50Tc_zeuthenFlow ] ; then
     MC_stepsize=500
     add_args=" --already_equally_spaced --show_id 0 1 --skip_binning --update_str sweeps"
 elif  [ "$qcdtype" == hisq_ms5_zeuthenFlow ] ; then
-    add_args="--n_samples 1000"
+    add_args="--n_samples 10"
     arr_conftypes=(
     "s064t20_b0803600" "s064t22_b0814700" "s096t24_b0824900_m002022_m01011"
     "s064t20_b0785700" "s064t24_b0806800" "s096t28_b0824900_m002022_m01011"
