@@ -30,7 +30,7 @@ elif [ "$qcdtype" == hisq_ms5_zeuthenFlow ] ; then
     arr_output_suffix=("T195" "T220" "T251" "T293")
     arr_ylims=("4 9.9" "3.9 8.9"  "3.5 7.9" "3.5 6.9")
     min_flowradius=0.05
-    add_args="--nterms 1 --relflow --combined_fit --nsamples 1000"
+    add_args="--nterms 1 --relflow --combined_fit --nsamples 10"
 fi
 
 
